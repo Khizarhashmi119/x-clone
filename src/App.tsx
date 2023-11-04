@@ -1,6 +1,5 @@
+import { Outlet } from "react-router-dom";
 import { createGlobalStyle } from "styled-components";
-
-import Home from "@pages/Home.page";
 
 const GlobalStyles = createGlobalStyle`
   * {
@@ -31,7 +30,7 @@ function App() {
   return (
     <>
       <GlobalStyles />
-      <Home />
+      <Outlet />
     </>
   );
 }

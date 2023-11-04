@@ -26,7 +26,8 @@
       "@/*": ["src/*"],
       "@pages/*": ["src/pages/*"],
       "@components/*": ["src/components/*"],
-      "@custom-types/*": ["src/custom-types/*"]
+      "@custom-types/*": ["src/custom-types/*"],
+      "@assets/*": ["src/assets/*"]
     }
   },
   "include": ["vite.config.ts", ".eslintrc.cjs", "src"],
